@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Proyecto en Equipo - Manejo de Versiones con GitHub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Proyecto en Equipo: Desarrollo Web con Manejo de Versiones</h1>
+
+<div class="section">
+<h2>Objetivo</h2>
+<p>
+Desarrollar una aplicación web funcional utilizando control de versiones con GitHub.
+El proyecto se realizará en equipos de 4 estudiantes y cada integrante trabajará en
+una parte diferente del sistema utilizando ramas, commits y pull requests.
+</p>
+</div>
+
+<div class="section">
+<h2>Requisitos del Proyecto</h2>
+<ul>
+<li>Sistema de Login</li>
+<li>Uso de al menos una API externa (ejemplo: clima, IA, noticias, etc.)</li>
+<li>Dashboard con información dinámica</li>
+<li>Base de datos</li>
+<li>Interfaz web funcional</li>
+<li>Uso obligatorio de GitHub para manejo de versiones</li>
+<li>Resolver conflictos</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Ideas de Aplicación (los alumnos pueden elegir otra)</h2>
+<ul>
+<li>Dashboard del clima</li>
+<li>App de noticias</li>
+<li>App de seguimiento de hábitos</li>
+<li>Administrador de tareas</li>
+<li>Dashboard de criptomonedas</li>
+<li>App de recomendaciones de películas</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Arquitectura sugerida</h2>
+
+<p>Frontend</p>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+
+<p>Backend</p>
+<ul>
+<li>Node.js / Python / PHP</li>
+</ul>
+
+<p>Base de datos</p>
+<ul>
+<li>MySQL</li>
+<li>SQLite</li>
+<li>MongoDB</li>
+</ul>
+
+<p>API externa</p>
+<ul>
+<li>Clima</li>
+<li>IA</li>
+<li>Noticias</li>
+<li>Datos financieros</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h2>Estructura del Repositorio</h2>
+
+<div class="code">
+/project<br>
+│<br>
+├── frontend<br>
+│   ├── index.html<br>
+│   ├── dashboard.html<br>
+│   ├── style.css<br>
+│   └── app.js<br>
+│<br>
+├── backend<br>
+│   ├── server.js<br>
+│   └── routes.js<br>
+│<br>
+├── database<br>
+│   └── schema.sql<br>
+│<br>
+└── README.md
+</div>
+
+</div>
+
+<div class="section">
+<h2>Flujo de Trabajo con Git</h2>
+
+<ol>
+<li>Un estudiante crea el repositorio en GitHub.</li>
+<li>Agrega a sus compañeros como colaboradores.</li>
+<li>Cada estudiante clona el repositorio.</li>
+<li>Cada estudiante crea una rama para su trabajo.</li>
+<li>Se realizan commits frecuentes con mensajes claros.</li>
+<li>Se hacen Pull Requests para integrar cambios.</li>
+<li>El equipo revisa el código antes de fusionar cambios.</li>
+</ol>
+
+</div>
+
+<div class="section">
+<h2>Asignación de Roles</h2>
+
+<h3>Alumno 1: Backend y Login</h3>
+
+<ul>
+<li>Crear la estructura del servidor backend.</li>
+<li>Implementar el sistema de login (usuario y contraseña).</li>
+<li>Crear endpoint de autenticación.</li>
+<li>Conectar el backend con la base de datos.</li>
+<li>Crear rutas para obtener datos del usuario.</li>
+</ul>
+
+<h3>Alumno 2: Base de Datos</h3>
+
+<ul>
+<li>Diseñar el esquema de base de datos.</li>
+<li>Crear tablas necesarias (usuarios, datos de la app, etc).</li>
+<li>Implementar consultas básicas.</li>
+<li>Integrar la base de datos con el backend.</li>
+<li>Crear scripts para insertar datos de prueba.</li>
+</ul>
+
+<h3>Alumno 3: API Externa</h3>
+
+<ul>
+<li>Investigar y seleccionar una API pública.</li>
+<li>Realizar peticiones a la API desde el backend o frontend.</li>
+<li>Procesar los datos recibidos.</li>
+<li>Mostrar la información en el dashboard.</li>
+<li>Manejar posibles errores de conexión o datos.</li>
+</ul>
+
+<h3>Alumno 4: Frontend y Dashboard</h3>
+
+<ul>
+<li>Diseñar la interfaz web.</li>
+<li>Crear página de login.</li>
+<li>Crear dashboard principal.</li>
+<li>Mostrar datos provenientes de la API.</li>
+<li>Aplicar estilos CSS y mejorar la experiencia de usuario.</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h2>Buenas Prácticas de Git</h2>
+
+<ul>
+<li>Realizar commits frecuentes.</li>
+<li>Usar mensajes claros en cada commit.</li>
+<li>No trabajar directamente en la rama main.</li>
+<li>Crear ramas para cada funcionalidad.</li>
+<li>Resolver conflictos de manera colaborativa.</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h2>Ejemplos de mensajes de commit</h2>
+
+<div class="code">
+git commit -m "Agrega sistema de login"<br>
+git commit -m "Conecta API de clima"<br>
+git commit -m "Crea diseño inicial del dashboard"<br>
+git commit -m "Agrega esquema de base de datos"
+</div>
+
+</div>
+
+</body>
+</html>
